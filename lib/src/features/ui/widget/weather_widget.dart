@@ -25,7 +25,6 @@ class WeatherWidget extends StatefulWidget {
 }
 
 class _WeatherWidgetState extends State<WeatherWidget> {
-  final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
   final ValueNotifier<bool> scaleIsDegree = ValueNotifier<bool>(true);
 
   @override
@@ -41,7 +40,6 @@ class _WeatherWidgetState extends State<WeatherWidget> {
         const BackgroundWidget(),
         SafeArea(
           child: Scaffold(
-            key: _scaffoldKey,
             backgroundColor: Colors.transparent,
             appBar: AppBar(
               backgroundColor: Colors.transparent,
