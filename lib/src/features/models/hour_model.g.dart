@@ -1,0 +1,83 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'hour_model.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+HourModel _$HourModelFromJson(Map<String, dynamic> json) => HourModel(
+      chance_of_rain: json['chance_of_rain'] as int?,
+      chance_of_snow: json['chance_of_snow'] as int?,
+      cloud: json['cloud'] as int?,
+      condition: json['condition'] == null
+          ? null
+          : Condition.fromJson(json['condition'] as Map<String, dynamic>),
+      dewpoint_c: (json['dewpoint_c'] as num?)?.toDouble(),
+      dewpoint_f: (json['dewpoint_f'] as num?)?.toDouble(),
+      feelslike_c: (json['feelslike_c'] as num?)?.toDouble(),
+      feelslike_f: (json['feelslike_f'] as num?)?.toDouble(),
+      gust_kph: (json['gust_kph'] as num?)?.toDouble(),
+      gust_mph: (json['gust_mph'] as num?)?.toDouble(),
+      heatindex_c: (json['heatindex_c'] as num?)?.toDouble(),
+      heatindex_f: (json['heatindex_f'] as num?)?.toDouble(),
+      humidity: json['humidity'] as int?,
+      is_day: json['is_day'] as int?,
+      precip_in: (json['precip_in'] as num?)?.toDouble(),
+      precip_mm: (json['precip_mm'] as num?)?.toDouble(),
+      pressure_in: (json['pressure_in'] as num?)?.toDouble(),
+      pressure_mb: (json['pressure_mb'] as num?)?.toDouble(),
+      snow_cm: (json['snow_cm'] as num?)?.toDouble(),
+      temp_c: (json['temp_c'] as num?)?.toDouble(),
+      temp_f: (json['temp_f'] as num?)?.toDouble(),
+      time: json['time'] as String?,
+      time_epoch: json['time_epoch'] as int?,
+      uv: (json['uv'] as num?)?.toDouble(),
+      vis_km: (json['vis_km'] as num?)?.toDouble(),
+      vis_miles: (json['vis_miles'] as num?)?.toDouble(),
+      will_it_rain: json['will_it_rain'] as int?,
+      will_it_snow: json['will_it_snow'] as int?,
+      wind_degree: json['wind_degree'] as int?,
+      wind_dir: json['wind_dir'] as String?,
+      wind_kph: (json['wind_kph'] as num?)?.toDouble(),
+      wind_mph: (json['wind_mph'] as num?)?.toDouble(),
+      windchill_c: (json['windchill_c'] as num?)?.toDouble(),
+      windchill_f: (json['windchill_f'] as num?)?.toDouble(),
+    );
+
+Map<String, dynamic> _$HourModelToJson(HourModel instance) => <String, dynamic>{
+      'time_epoch': instance.time_epoch,
+      'time': instance.time,
+      'temp_c': instance.temp_c,
+      'temp_f': instance.temp_f,
+      'is_day': instance.is_day,
+      'condition': instance.condition,
+      'wind_mph': instance.wind_mph,
+      'wind_kph': instance.wind_kph,
+      'wind_degree': instance.wind_degree,
+      'wind_dir': instance.wind_dir,
+      'pressure_mb': instance.pressure_mb,
+      'pressure_in': instance.pressure_in,
+      'precip_mm': instance.precip_mm,
+      'precip_in': instance.precip_in,
+      'snow_cm': instance.snow_cm,
+      'humidity': instance.humidity,
+      'cloud': instance.cloud,
+      'feelslike_c': instance.feelslike_c,
+      'feelslike_f': instance.feelslike_f,
+      'windchill_c': instance.windchill_c,
+      'windchill_f': instance.windchill_f,
+      'heatindex_c': instance.heatindex_c,
+      'heatindex_f': instance.heatindex_f,
+      'dewpoint_c': instance.dewpoint_c,
+      'dewpoint_f': instance.dewpoint_f,
+      'will_it_rain': instance.will_it_rain,
+      'chance_of_rain': instance.chance_of_rain,
+      'will_it_snow': instance.will_it_snow,
+      'chance_of_snow': instance.chance_of_snow,
+      'vis_km': instance.vis_km,
+      'vis_miles': instance.vis_miles,
+      'gust_mph': instance.gust_mph,
+      'gust_kph': instance.gust_kph,
+      'uv': instance.uv,
+    };
